@@ -1,0 +1,128 @@
+{
+  "SpringSecurity": {
+    "title": "Spring Security",
+    "description": "Highly customizable authentication and access-control framework for Spring applications.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "security",
+      "spring",
+      "framework"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-security"
+        }
+      }
+    }
+  },
+  "OAuth2Client": {
+    "title": "OAuth2 Client",
+    "description": "Spring Boot integration for Spring Security's OAuth2/OpenID Connect client features.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "framework",
+      "authentication",
+      "client",
+      "starter",
+      "oauth"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-oauth2-client"
+        }
+      }
+    }
+  },
+  "OAuth2AuthorizationServer": {
+    "title": "OAuth2 Authorization Server",
+    "description": "Spring Boot integration for Spring Authorization Server.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "server",
+      "spring",
+      "framework",
+      "authorization",
+      "authentication",
+      "starter",
+      "oauth"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-oauth2-authorization-server"
+        }
+      }
+    }
+  },
+  "OAuth2ResourceServer": {
+    "title": "OAuth2 Resource Server",
+    "description": "Spring Boot integration for Spring Security's OAuth2 resource server features.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "server",
+      "spring",
+      "framework",
+      "authentication",
+      "resource",
+      "starter",
+      "oauth"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-oauth2-authorization-server"
+        }
+      }
+    }
+  },
+  "SpringLDAP": {
+    "title": "Spring LDAP",
+    "description": "Makes it easier to build Spring based applications that use the Lightweight Directory Access Protocol.",
+    "latest-version": "3.2.4",
+    "tags": [
+      "spring",
+      "framework",
+      "ldap",
+      "directory"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.2.4": {
+        "maven": {
+          "groupId": "org.springframework.ldap",
+          "artifactId": "spring-ldap-core"
+        }
+      }
+    }
+  },
+  "Okta": {
+    "title": "Okta",
+    "description": "Okta specific configuration for Spring Security/Spring Boot OAuth2 features. Enable your Spring Boot application to work with Okta via OAuth 2.0/OIDC.",
+    "latest-version": "3.0.7",
+    "tags": [
+      "okta",
+      "spring",
+      "starter"
+    ],
+    "category": "SECURITY",
+    "versions": {
+      "3.0.7": {
+        "maven": {
+          "groupId": "com.okta.spring",
+          "artifactId": "okta-spring-boot-starter"
+        }
+      }
+    }
+  }
+}

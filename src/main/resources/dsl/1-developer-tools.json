@@ -1,0 +1,66 @@
+{
+  "SpringBootDevTools": {
+    "title": "Spring Boot DevTools",
+    "description": "Provides fast application restarts, LiveReload, and configurations for enhanced development experience.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "tools",
+      "framework"
+    ],
+    "category": "DEVELOPER-TOOLS",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-devtools"
+        }
+      }
+    }
+  },
+  "Lombok": {
+    "title": "Lombok",
+    "description": "Java annotation library which helps to reduce boilerplate code.",
+    "latest-version": "1.18.34",
+    "tags": [
+      "lombok",
+      "codegen",
+      "code",
+      "generator"
+    ],
+    "category": "DEVELOPER-TOOLS",
+    "versions": {
+      "1.18.34": {
+        "maven": {
+          "groupId": "org.projectlombok",
+          "artifactId": "lombok",
+          "scope": "provided"
+        }
+      }
+    }
+  },
+  "SpringConfigurationProcessor": {
+    "title": "Spring Configuration Processor",
+    "description": "Generate metadata for developers to offer contextual help and \"code completion\" when working with custom configuration keys (ex.application.properties/.yml files).",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "annotation",
+      "config",
+      "processing",
+      "framework",
+      "processor",
+      "metadata"
+    ],
+    "category": "DEVELOPER-TOOLS",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-configuration-processor",
+          "scope": "provided"
+        }
+      }
+    }
+  }
+}

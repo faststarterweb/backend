@@ -1,0 +1,40 @@
+{
+  "Thymeleaf": {
+    "title": "Thymeleaf",
+    "description": "A modern server-side Java template engine for both web and standalone environments. Allows HTML to be correctly displayed in browsers and as static prototypes.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "thymeleaf",
+      "framework",
+      "starter"
+    ],
+    "category": "TEMPLATE-ENGINES",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-thymeleaf"
+        }
+      }
+    }
+  },
+  "Apache-Freemarker": {
+    "title": "Apache Freemarker",
+    "description": "Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.",
+    "latest-version": "2.3.33",
+    "tags": [
+      "template",
+      "engine"
+    ],
+    "category": "TEMPLATE-ENGINES",
+    "versions": {
+      "2.3.33": {
+        "maven": {
+          "groupId": "org.freemarker",
+          "artifactId": "freemarker"
+        }
+      }
+    }
+  }
+}

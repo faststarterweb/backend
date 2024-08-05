@@ -1,0 +1,83 @@
+{
+  "SpringBootStarterWeb": {
+    "title": "Spring Boot Starter Web",
+    "description": "Build web, including RESTful, applications using Spring MVC. Uses Apache Tomcat as the default embedded container.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "framework",
+      "web",
+      "starter"
+    ],
+    "category": "WEB",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-web"
+        }
+      }
+    }
+  },
+  "SpringForGraphQL": {
+    "title": "Spring for GraphQL",
+    "description": "Build GraphQL applications with Spring for GraphQL and GraphQL Java.",
+    "latest-version": "15.1.0",
+    "tags": [
+      "spring",
+      "query",
+      "api",
+      "starter",
+      "graphql"
+    ],
+    "category": "WEB",
+    "versions": {
+      "15.1.0": {
+        "maven": {
+          "groupId": "com.graphql-java-kickstart",
+          "artifactId": "graphql-spring-boot-starter"
+        }
+      }
+    }
+  },
+  "RestRepositories": {
+    "title": "Rest Repositories",
+    "description": "Exposing Spring Data repositories over REST via Spring Data REST.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "rest",
+      "data",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "WEB",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-rest"
+        }
+      }
+    }
+  },
+  "SpringSession": {
+    "title": "Spring Session",
+    "description": "Provides an API and implementations for managing user session information.",
+    "latest-version": "3.3.1",
+    "tags": [
+      "spring",
+      "framework",
+      "session"
+    ],
+    "category": "WEB",
+    "versions": {
+      "3.3.1": {
+        "maven": {
+          "groupId": "org.springframework.session",
+          "artifactId": "spring-session-core"
+        }
+      }
+    }
+  }
+}
