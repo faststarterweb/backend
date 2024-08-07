@@ -1,0 +1,147 @@
+{
+  "SpringIntegration": {
+    "title": "Spring Integration",
+    "description": "Adds support for Enterprise Integration Patterns. Enables lightweight messaging and supports integration with external systems via declarative adapters.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "integration",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-integration"
+        }
+      }
+    }
+  },
+  "SpringRabbitMQ": {
+    "title": "Spring for RabbitMQ",
+    "description": "Adds support for Enterprise Integration Patterns. Enables lightweight messaging and supports integration with external systems via declarative adapters.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "queue",
+      "messaging",
+      "amqp",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-amqp"
+        }
+      }
+    }
+  },
+  "SpringForApacheKafka": {
+    "title": "Spring for Apache Kafka",
+    "description": "Publish, subscribe, store, and process streams of records.",
+    "latest-version": "3.2.2",
+    "tags": [
+      "streaming",
+      "spring",
+      "framework",
+      "kafka"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.2.2": {
+        "maven": {
+          "groupId": "org.springframework.kafka",
+          "artifactId": "spring-kafka"
+        }
+      }
+    }
+  },
+  "SpringForApacheActiveMQ": {
+    "title": "Spring for Apache ActiveMQ",
+    "description": "Spring JMS support with Apache ActiveMQ 'Classic'.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "jms",
+      "activemq",
+      "queue",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-activemq"
+        }
+      }
+    }
+  },
+  "SpringForApachePulsar": {
+    "title": "Spring for Apache Pulsar",
+    "description": "Build messaging applications with Apache Pulsar.",
+    "latest-version": "3.3.1",
+    "tags": [
+      "apache",
+      "client",
+      "pulsar"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.1": {
+        "maven": {
+          "groupId": "org.apache.pulsar",
+          "artifactId": "pulsar-client"
+        }
+      }
+    }
+  },
+  "WebSocket": {
+    "title": "WebSocket",
+    "description": "Build Servlet-based WebSocket applications with SockJS and STOMP.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "socket",
+      "websocket",
+      "spring",
+      "framework",
+      "web",
+      "starter"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-websocket"
+        }
+      }
+    }
+  },
+  "RSocket": {
+    "title": "RSocket",
+    "description": "RSocket.io applications with Spring Messaging and Netty.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "socket",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "MESSAGING",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-rsocket"
+        }
+      }
+    }
+  }
+}

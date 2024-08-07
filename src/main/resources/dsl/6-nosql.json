@@ -1,0 +1,91 @@
+{
+  "SpringDataRedis": {
+    "title": "Spring Data Redis",
+    "description": "Advanced and thread-safe Java Redis client for synchronous, asynchronous, and reactive usage. Supports Cluster, Sentinel, Pipelining, Auto-Reconnect, Codecs and much more.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "database",
+      "data",
+      "spring",
+      "framework",
+      "redis",
+      "starter"
+    ],
+    "category": "NOSQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-redis"
+        }
+      }
+    }
+  },
+  "SpringDataMongoDB": {
+    "title": "Spring Data MongoDB",
+    "description": "Store data in flexible, JSON-like documents, meaning fields can vary from document to document and data structure can be changed over time.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "database",
+      "data",
+      "spring",
+      "framework",
+      "mongodb",
+      "starter"
+    ],
+    "category": "NOSQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-mongodb"
+        }
+      }
+    }
+  },
+  "SpringDataElasticsearch": {
+    "title": "Spring Data Elasticsearch",
+    "description": "A distributed, RESTful search and analytics engine with Spring Data Elasticsearch.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "database",
+      "data",
+      "spring",
+      "framework",
+      "mongodb",
+      "starter"
+    ],
+    "category": "NOSQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-elasticsearch"
+        }
+      }
+    }
+  },
+  "SpringDataNeo4j": {
+    "title": "Spring Data Neo4j",
+    "description": "An open source NoSQL database that stores data structured as graphs consisting of nodes, connected by relationships.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "database",
+      "data",
+      "spring",
+      "framework",
+      "graph",
+      "neo4j",
+      "starter"
+    ],
+    "category": "NOSQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-neo4j"
+        }
+      }
+    }
+  }
+}

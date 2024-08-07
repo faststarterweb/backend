@@ -1,0 +1,179 @@
+{
+  "SpringDataJPA": {
+    "title": "Spring Data JPA",
+    "description": "Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "persistence",
+      "data",
+      "spring",
+      "jpa",
+      "framework",
+      "starter"
+    ],
+    "category": "SQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-jpa"
+        }
+      }
+    }
+  },
+  "SpringDataJDBC": {
+    "title": "Spring Data JDBC",
+    "description": "Persist data in SQL stores with plain JDBC using Spring Data.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "database",
+      "sql",
+      "jdbc",
+      "data",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "SQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-jdbc"
+        }
+      }
+    }
+  },
+  "SpringDataR2DBC": {
+    "title": "Spring Data R2DBC",
+    "description": "Provides Reactive Relational Database Connectivity to persist data in SQL stores using Spring Data in reactive applications.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "data",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "SQL",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-data-r2dbc"
+        }
+      }
+    }
+  },
+  "MyBatisFramework": {
+    "title": "MyBatis Framework",
+    "description": "Persistence framework with support for custom SQL, stored procedures and advanced mappings. MyBatis couples objects with stored procedures or SQL statements using a XML descriptor or annotations.",
+    "latest-version": "3.0.3",
+    "tags": [
+      "persistence",
+      "myBatis",
+      "spring",
+      "starter"
+    ],
+    "category": "SQL",
+    "versions": {
+      "3.0.3": {
+        "maven": {
+          "groupId": "org.mybatis.spring.boot",
+          "artifactId": "mybatis-spring-boot-starter"
+        }
+      }
+    }
+  },
+  "MySQLDriver": {
+    "title": "MySQL Driver",
+    "description": "MySQL JDBC driver.",
+    "latest-version": "9.0.0",
+    "tags": [
+      "database",
+      "sql",
+      "jdbc",
+      "driver",
+      "connector",
+      "rdbms",
+      "mysql",
+      "connection"
+    ],
+    "category": "SQL",
+    "versions": {
+      "9.0.0": {
+        "maven": {
+          "groupId": "com.mysql",
+          "artifactId": "mysql-connector-j"
+        }
+      }
+    }
+  },
+  "OracleDriver": {
+    "title": "Oracle Driver",
+    "description": "A JDBC driver that provides access to Oracle.",
+    "latest-version": "23.5.0.24.07",
+    "tags": [
+      "database",
+      "sql",
+      "oracle",
+      "jdbc",
+      "data"
+    ],
+    "category": "SQL",
+    "versions": {
+      "23.5.0.24.07": {
+        "maven": {
+          "groupId": "com.oracle.database.jdbc",
+          "artifactId": "ojdbc11"
+        }
+      }
+    }
+  },
+  "PostgreSQLDriver": {
+    "title": "PostgreSQL Driver",
+    "description": "A JDBC and R2DBC driver that allows Java programs to connect to a PostgreSQL database using standard, database independent Java code.",
+    "latest-version": "42.7.3",
+    "tags": [
+      "database",
+      "sql",
+      "jdbc",
+      "postgresql",
+      "driver",
+      "rdbms"
+    ],
+    "category": "SQL",
+    "versions": {
+      "42.7.3": {
+        "maven": {
+          "groupId": "org.postgresql",
+          "artifactId": "postgresql"
+        }
+      }
+    }
+  },
+  "MSSQLServerDriver": {
+    "title": "MS SQL Server Driver",
+    "description": "A JDBC and R2DBC driver that provides access to Microsoft SQL Server and Azure SQL Database from any Java application.",
+    "latest-version": "12.8.0.jre11",
+    "tags": [
+      "database",
+      "sql",
+      "mssql",
+      "server",
+      "jdbc",
+      "sqlserver",
+      "driver",
+      "rdbms",
+      "microsoft"
+    ],
+    "category": "SQL",
+    "versions": {
+      "12.8.0.jre11": {
+        "maven": {
+          "groupId": "com.microsoft.sqlserver",
+          "artifactId": "mssql-jdbc"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "Validation": {
+    "title": "Validation",
+    "description": "Bean Validation with Hibernate validator.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "framework",
+      "starter",
+      "validation"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-validation"
+        }
+      }
+    }
+  },
+  "JavaMailSender": {
+    "title": "Java Mail Sender",
+    "description": "Send email using Java Mail and Spring Framework's JavaMailSender.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "framework",
+      "mail",
+      "starter"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-mail"
+        }
+      }
+    }
+  },
+  "QuartzScheduler": {
+    "title": "Quartz Scheduler",
+    "description": "Schedule jobs using Quartz.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "scheduling",
+      "quartz",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-quartz"
+        }
+      }
+    }
+  },
+  "SpringCacheAbstraction": {
+    "title": "Spring Cache Abstraction",
+    "description": "Provides cache-related operations, such as the ability to update the content of the cache, but does not provide the actual data store.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "spring",
+      "framework",
+      "cache",
+      "starter"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-cache"
+        }
+      }
+    }
+  },
+  "SpringShell": {
+    "title": "Spring Shell",
+    "description": "Build command line applications with spring.",
+    "latest-version": "3.3.1",
+    "tags": [
+      "shell",
+      "spring",
+      "framework",
+      "starter"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.1": {
+        "maven": {
+          "groupId": "org.springframework.shell",
+          "artifactId": "spring-shell-starter"
+        }
+      }
+    }
+  }
+}
