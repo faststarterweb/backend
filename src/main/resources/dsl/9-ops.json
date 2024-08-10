@@ -1,0 +1,26 @@
+{
+  "SpringBootActuator": {
+    "title": "Spring Boot Actuator",
+    "description": "Supports built in (or custom) endpoints that let you monitor and manage your application - such as application health, metrics, sessions, etc.",
+    "latest-version": "3.3.2",
+    "tags": [
+      "observability",
+      "monitoring",
+      "spring",
+      "framework",
+      "management",
+      "metrics",
+      "starter",
+      "performance"
+    ],
+    "category": "IO",
+    "versions": {
+      "3.3.2": {
+        "maven": {
+          "groupId": "org.springframework.boot",
+          "artifactId": "spring-boot-starter-actuator"
+        }
+      }
+    }
+  }
+}
