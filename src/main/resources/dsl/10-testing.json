@@ -1,0 +1,23 @@
+{
+  "SpringRESTDocs": {
+    "title": "Spring REST Docs",
+    "description": "Document RESTful services by combining hand-written with Asciidoctor and auto-generated snippets produced with Spring MVC Test.",
+    "latest-version": "3.0.1",
+    "tags": [
+      "rest",
+      "spring",
+      "framework",
+      "doc"
+    ],
+    "category": "TESTING",
+    "versions": {
+      "3.0.1": {
+        "maven": {
+          "groupId": "org.springframework.restdocs",
+          "artifactId": "spring-restdocs-mockmvc",
+          "scope": "test"
+        }
+      }
+    }
+  }
+}
