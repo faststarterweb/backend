@@ -1,0 +1,63 @@
+{
+  "CloudBootstrap": {
+    "title": "Cloud Bootstrap",
+    "description": "Non-specific Spring Cloud features, unrelated to external libraries or integrations (e.g. Bootstrap context and @RefreshScope).",
+    "latest-version": "4.1.4",
+    "tags": [
+      "spring",
+      "framework",
+      "cloud",
+      "starter",
+      "bootstrap"
+    ],
+    "category": "SPRING-CLOUD",
+    "versions": {
+      "4.1.4": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-starter-bootstrap"
+        }
+      }
+    }
+  },
+  "Function": {
+    "title": "Function",
+    "description": "Promotes the implementation of business logic via functions and supports a uniform programming model across serverless providers, as well as the ability to run standalone (locally or in a PaaS).",
+    "latest-version": "4.1.3",
+    "tags": [
+      "spring",
+      "framework",
+      "cloud",
+      "functions"
+    ],
+    "category": "SPRING-CLOUD",
+    "versions": {
+      "4.1.3": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-function-core"
+        }
+      }
+    }
+  },
+  "Task": {
+    "title": "Task",
+    "description": "Allows a user to develop and run short lived microservices using Spring Cloud. Run them locally, in the cloud, and on Spring Cloud Data Flow.",
+    "latest-version": "3.1.2",
+    "tags": [
+      "task",
+      "spring",
+      "framework",
+      "cloud"
+    ],
+    "category": "SPRING-CLOUD",
+    "versions": {
+      "3.1.2": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-task-core"
+        }
+      }
+    }
+  }
+}
