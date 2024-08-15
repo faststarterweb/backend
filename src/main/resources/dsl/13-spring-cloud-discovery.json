@@ -1,0 +1,94 @@
+{
+  "EurekaDiscoveryClient": {
+    "title": "Eureka Discovery Client",
+    "description": "A REST based service for locating services for the purpose of load balancing and failover of middle-tier servers.",
+    "latest-version": "4.1.3",
+    "tags": [
+      "spring",
+      "framework",
+      "netflix",
+      "cloud",
+      "client",
+      "starter"
+    ],
+    "category": "SPRING-CLOUD-DISCOVERY",
+    "versions": {
+      "4.1.3": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-starter-netflix-eureka-client"
+        }
+      }
+    }
+  },
+  "EurekaServer": {
+    "title": "Eureka Server",
+    "description": "spring-cloud-netflix Eureka Server.",
+    "latest-version": "4.1.3",
+    "tags": [
+      "server",
+      "spring",
+      "framework",
+      "netflix",
+      "cloud",
+      "starter"
+    ],
+    "category": "SPRING-CLOUD-DISCOVERY",
+    "versions": {
+      "4.1.3": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-starter-netflix-eureka-server"
+        }
+      }
+    }
+  },
+  "ApacheZookeeperDiscovery": {
+    "title": "Apache Zookeeper Discovery",
+    "description": "Service discovery with Apache Zookeeper.",
+    "latest-version": "4.1.2",
+    "tags": [
+      "spring",
+      "framework",
+      "cloud",
+      "zookeeper",
+      "starter",
+      "discovery"
+    ],
+    "category": "SPRING-CLOUD-DISCOVERY",
+    "versions": {
+      "4.1.2": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-starter-zookeeper-discovery"
+        }
+      }
+    }
+  },
+  "ConsulDiscovery": {
+    "title": "Consul Discovery",
+    "description": "Service discovery with Hashicorp Consul.",
+    "latest-version": "4.1.2",
+    "tags": [
+      "hashicorp",
+      "coordination",
+      "spring",
+      "config",
+      "framework",
+      "cloud",
+      "client",
+      "consul",
+      "starter",
+      "discovery"
+    ],
+    "category": "SPRING-CLOUD-DISCOVERY",
+    "versions": {
+      "4.1.2": {
+        "maven": {
+          "groupId": "org.springframework.cloud",
+          "artifactId": "spring-cloud-starter-consul-discovery"
+        }
+      }
+    }
+  }
+}
